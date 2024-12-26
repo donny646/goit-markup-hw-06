@@ -19,7 +19,7 @@
   <body>
     <!-- ===============Header=============== -->
     <header class="header-page">
-      <div class="container">
+      <div class="container header-container">
         <nav class="nav-page">
           <a class="logo" href="./index.html"
             >Web<span class="logo-style">Studio</span></a
@@ -50,10 +50,20 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button></button>
+        </div>
       </div>
     </header>
     <!-- ===============Hero=============== -->
-    <main>
+    <main class="hidden">
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -408,7 +418,7 @@
       </section>
     </main>
     <!-- ===============Footer=============== -->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="footer-container container">
         <div class="logo-container">
           <a class="logo footer-logo" href="./index.html"
@@ -474,7 +484,7 @@
       </div>
     </footer>
     <!-- ===============Modal=============== -->
-    <div class="backdrop is-open">
+    <div class="backdrop hidden">
       <div class="modal">
         <button class="esc-button" type="button">
           <svg class="cross-icon" width="8" height="8">
