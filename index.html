@@ -56,9 +56,13 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
+
+      <div class="mobile-menu is-open">
         <div class="container mobile-menu-container">
-          <button></button>
+          <button class="mobile-menu-close">Close</button>
+          <nav class="mobile-menu-nav">Navigation</nav>
+          <address>Address</address>
+          <div>Soc Link</div>
         </div>
       </div>
     </header>
@@ -495,9 +499,7 @@
 
         <form>
           <div class="name-form">
-            <label class="user-label" for="user-name" name="user-name"
-              >Name</label
-            >
+            <label class="user-label" for="user-name">Name</label>
             <div class="input-div">
               <input
                 class="input-form"
@@ -511,7 +513,7 @@
             </div>
           </div>
           <div class="name-form">
-            <label class="user-label" for="phone" name="phone">Phone</label>
+            <label class="user-label" for="phone">Phone</label>
             <div class="input-div">
               <input class="input-form" type="text" id="phone" name="phone" />
               <svg class="svg-name" width="18" height="24">
@@ -520,7 +522,7 @@
             </div>
           </div>
           <div class="name-form">
-            <label class="user-label" for="email" name="email">Email</label>
+            <label class="user-label" for="email">Email</label>
             <div class="input-div">
               <input class="input-form" type="text" id="email" name="email" />
               <svg class="svg-name" width="18" height="24">
@@ -529,9 +531,7 @@
             </div>
           </div>
           <div class="comment-form">
-            <label class="user-label" for="user-comment" name="user-comment"
-              >Comment</label
-            >
+            <label class="user-label" for="user-comment">Comment</label>
             <textarea
               class="textarea-modal"
               name="user-comment"
