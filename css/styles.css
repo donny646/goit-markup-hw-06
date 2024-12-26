@@ -285,4 +285,14 @@ img {
 .mobile-menu-nav {
   margin-bottom: auto;
 }
+
+.mobile-menu-close {
+  border-radius: 100%;
+  fill: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu-esc-icon {
+  fill: #2e2f42;
+}
 /* #endregion */
