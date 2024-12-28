@@ -214,9 +214,6 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-  .header-container {
-  }
-
   .container {
     min-width: 1158px;
   }
